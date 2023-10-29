@@ -11,12 +11,12 @@
 </head>
   <body>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <div class="container-fluid" style="margin: 0px 100px 0px 100px">
                 <a class="navbar-brand p-2">Can Carikcioglu</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" style="justify-content: flex-end;" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item p-2">
                     <a class="nav-link active" aria-current="page" href="#about">Über mich</a>
@@ -52,7 +52,77 @@
         </div>
 
     </section>
+    <section id="about">
+        <p class="section__text__p1">Mehr</p>
+        <h1 class="title">Über mich</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="assets/profile-picture.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-mortarboard-fill icon p-1" viewBox="0 0 16 16">
+                    <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                    <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+                  </svg>
+                <h3>Skills</h3>
+                <p>
+                    2+ years <br />
+                    Frontend Development
+                </p>
+              </div>
+              <div class="details-container">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-backpack3 icon p-1" viewBox="0 0 16 16">
+                    <path d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14ZM4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4Zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10H5Z"/>
+                    <path d="M6 2.341V2a2 2 0 1 1 4 0v.341c.465.165.904.385 1.308.653l.416-1.247a1 1 0 0 1 1.748-.284l.77 1.027a1 1 0 0 1 .15.917l-.803 2.407C13.854 6.49 14 7.229 14 8v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8c0-.771.146-1.509.41-2.186l-.802-2.407a1 1 0 0 1 .15-.917l.77-1.027a1 1 0 0 1 1.748.284l.416 1.247A5.978 5.978 0 0 1 6 2.34ZM7 2v.083a6.04 6.04 0 0 1 2 0V2a1 1 0 1 0-2 0Zm5.941 2.595.502-1.505-.77-1.027-.532 1.595c.297.284.566.598.8.937ZM3.86 3.658l-.532-1.595-.77 1.027.502 1.505c.234-.339.502-.653.8-.937ZM8 3a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5Z"/>
+                  </svg>
+                <h3>Hobbys</h3>
+                <p>
+                    B.Sc. Bachelors Degree<br />
+                    M.Sc. Masters Degree
+                </p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+                reprehenderit et laborum, rem, dolore eum quod voluptate
+                exercitationem nobis, nihil esse debitis maxime facere minus sint
+                delectus velit in eos quo officiis explicabo deleniti dignissimos.
+                Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+                reiciendis ea magnam? Nulla, impedit fuga!
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">Über mich</a></li>
+              <li><a href="#cv">Lebenslauf</a></li>
+              <li><a href="#contact">Kontakt</a></li>
+            </ul>
+          </div>
+        </nav>
 
+        <div class="d-flex justify-content-center">
+            <p class="p-2">Impressum</p>
+            <p class="p-2">Datenschutz</p>
+        </div>
+      </fooer>
 
 
     <script src="bootstrap.bundle.min.js"></script>
