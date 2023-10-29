@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("Quicksand-VariableFont_wght.ttf");
+}
+
+
+html *{
+    font-family: "Quicksand";
+}
+
+.navbar-brand{
+    cursor: default;
+    margin-right: 100px;
+}
+
+.nav-link:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color:( 181,181,181);
+}
+
+nav button{
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.profile-picture{
+    border-radius: 50%;
+}
