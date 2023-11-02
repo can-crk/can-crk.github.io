@@ -7,8 +7,12 @@
       flex-wrap: wrap;
     }
     #contact,
-    #projects {
+    #cv {
       height: fit-content;
+    }
+    .git-container {
+      margin-left: 5%;
+      margin-right: 5%;
     }
   }
   
@@ -19,8 +23,8 @@
     #hamburger-nav {
       display: flex;
     }
-    #experience,
-    .experience-details-container {
+    #cv,
+    .cv-details-container {
       margin-top: 2rem;
     }
     #profile,
@@ -44,6 +48,15 @@
     }
     .about-containers {
       margin-top: 0;
+    }
+    .text-container{
+      margin-top: 50px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .git-container {
+      margin-left: 0%;
+      margin-right: 0%;
     }
   }
   
@@ -99,5 +112,14 @@
     }
     .text-container {
       text-align: justify;
+    }
+    .text-container{
+      margin-top: 20px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .git-container {
+      margin-left: 0%;
+      margin-right: 0%;
     }
   }

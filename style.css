@@ -17,6 +17,10 @@ nav button{
     box-shadow: none !important;
 }
 
+  .social-media{
+    cursor: pointer;
+  }
+
 .profile-picture{
     border-radius: 50%;
 }
@@ -164,7 +168,7 @@ nav button{
   
   section {
     padding-top: 4vh;
-    height: 96vh;
+    /* height: 96vh; */
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -180,7 +184,7 @@ nav button{
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 83vh;
   }
   
   .section__pic-container {
@@ -422,8 +426,10 @@ nav button{
     margin: 1rem;
   }
   
-  .contact-info-container p {
+  .contact-info-container a {
     font-size: larger;
+    margin-left: .5em;
+    margin-right: .5em;
   }
   
   .contact-icon {
@@ -443,4 +449,25 @@ nav button{
   
   footer p {
     text-align: center;
+  }
+
+  .text-container{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #cv{
+    height:auto
+  }
+
+  #graph-container {
+    width: 100%;  /* oder z.B. max-width: 500px; */
+    height: auto;
+    position: relative;
+  }
+
+  .git-container {
+    margin-left: 20%;
+    margin-right: 20%;
   }
