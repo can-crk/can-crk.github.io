@@ -54,7 +54,8 @@ nav button{
   nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    min-height: 10vh;
+    margin-bottom: 7vh;
   }
   
   .nav-links {
@@ -471,3 +472,14 @@ nav button{
     margin-left: 20%;
     margin-right: 20%;
   }
+  ul {
+    padding: 0;
+  }
+  ol {
+    padding: 0;
+  }
+
+ .container-fluid {
+  margin-left: 100px;
+  margin-right: 100px;
+ }

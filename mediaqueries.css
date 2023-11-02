@@ -81,9 +81,6 @@
     .btn-container {
       flex-wrap: wrap;
     }
-    .contact-info-container {
-      margin: 0;
-    }
     .contact-info-container p,
     .nav-links li a {
       font-size: 1rem;
@@ -108,7 +105,7 @@
       font-size: 1.25rem;
     }
     .title {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
     .text-container {
       text-align: justify;
@@ -122,4 +119,8 @@
       margin-left: 0%;
       margin-right: 0%;
     }
+    .container-fluid {
+      margin-left: 10px;
+      margin-right: 10px;
+     }
   }
